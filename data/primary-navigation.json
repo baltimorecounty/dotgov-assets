@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Departments and Services",
+		"icon": "list-alt",
+		"link": "/departments-and-services"
+	},
+	{
+		"name": "Pay",
+		"icon": "shopping-cart",
+		"link": "/pay"
+	},
+	{
+		"name": "Apply",
+		"icon": "edit",
+		"link": "/apply"
+	},
+	{
+		"name": "Report a Problem",
+		"icon": "exclamation-triangle",
+		"link": "/report"
+	},
+	{
+		"name": "Contact Us",
+		"icon": "envelope",
+		"link": "/contact"
+	}
+]
