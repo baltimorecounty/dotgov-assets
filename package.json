@@ -1,0 +1,19 @@
+{
+  "name": "dotgov-assets",
+  "version": "1.0.0",
+  "description": "Assets associated with the baltimorecountymd.gov website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baltimorecounty/dotgov-assets.git"
+  },
+  "author": "Baltimore County Developers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baltimorecounty/dotgov-assets/issues"
+  },
+  "homepage": "https://github.com/baltimorecounty/dotgov-assets#readme"
+}
