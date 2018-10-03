@@ -4,6 +4,8 @@
   "description": "Assets associated with the baltimorecountymd.gov website",
   "main": "index.js",
   "scripts": {
+	"start": "npm run-script build",
+	"build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +18,9 @@
     "url": "https://github.com/baltimorecounty/dotgov-assets/issues"
   },
   "homepage": "https://github.com/baltimorecounty/dotgov-assets#readme",
-  "dependencies": {
-    "gulp": "^3.9.1"
+  "dependencies": {},
+  "devDependencies": {
+	"gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
   }
 }
