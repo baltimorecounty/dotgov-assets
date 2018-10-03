@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 
 const basePath = './src';
-const baseSassPath = `${basePath}/stylesheets`;
+const baseSassPath = `./stylesheets`;
 const distPath = './dist';
 const stylesheets = [
 	`${baseSassPath}/bc-main.scss`,
