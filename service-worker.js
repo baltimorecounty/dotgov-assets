@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/dotgov-assets/precache-manifest.dcb41823c95126bdf065a8473666eabd.js"
+  "/dotgov-assets/precache-manifest.67f682d6602739e41b7030e5d6a62b79.js"
 );
 
 workbox.clientsClaim();
