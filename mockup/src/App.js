@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router';
 import HomePage from './pages/Homepage';
+import DesignSystem from './pages/DesignSystem';
 import Layout from './Layout';
 import './App.css';
 
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <Layout>
         <Route exact path='/' component={HomePage} />
+		<Route exact path='/design-system' component={DesignSystem} />
 	  </Layout>
     );
   }
