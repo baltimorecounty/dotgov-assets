@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/dotgov-assets/static/css/main.8364b40b.chunk.css"
   },
   {
-    "revision": "e670e0054767f2ac8329fa697fdc8780",
+    "revision": "60e9e3948e40c409396a20d283b62700",
     "url": "/dotgov-assets/index.html"
   }
 ];
