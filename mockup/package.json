@@ -1,5 +1,6 @@
 {
   "name": "mockup",
+  "homepage": "https://baltimorecounty.github.io/dotgov-assets/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
