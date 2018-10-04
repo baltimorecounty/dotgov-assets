@@ -1,9 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-const propTypes = {};
-
-const defaultProps = {};
 
 export default class Homepage extends React.Component {
 	constructor(props) {
@@ -20,6 +15,3 @@ export default class Homepage extends React.Component {
 		);
 	}
 }
-
- Homepage.propTypes = propTypes;
- Homepage.defaultProps = defaultProps;
