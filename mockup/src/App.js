@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router';
 import HomePage from './pages/Homepage';
 import DesignSystem from './pages/DesignSystem';
-import Layout from './Layout';
+import Layout from './layouts/Layout';
 import './App.css';
 
 class App extends Component {
