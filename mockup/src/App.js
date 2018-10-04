@@ -10,8 +10,8 @@ class App extends Component {
     const rootPath = process.env.PUBLIC_URL;
     return (
       <Layout>
-        <Route exact path={`${rootPath}/`} component={HomePage}/>
-        <Route exact path={`${rootPath}/design-system`} component={DesignSystem}/>
+        <Route exact path="/" component={HomePage}/>
+        <Route exact path="/design-system" component={DesignSystem}/>
       </Layout>
     );
   }
