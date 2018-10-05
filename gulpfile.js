@@ -3,6 +3,9 @@ const sass = require('gulp-sass');
 
 const basePath = './src';
 const baseSassPath = `./stylesheets`;
+const dateFiles = './data/**/*.json';
+const baseAppPath = `./mockup/${basePath}`;
+const appDataPath = `${baseAppPath}/data`
 const mockupPublicPath = `./mockup/public`;
 const distPath = './dist';
 
@@ -18,11 +21,16 @@ const compileSass = (path, destination) => {
 		.pipe(gulp.dest(destination));
 };
 
+gulp.task('move-data-into-app', () => {
+	return gulp.src([dateFiles])
+		.pipe(gulp.dest(appDataPath));
+});
+
 gulp.task('sass', () => {
 	stylesheets.forEach((stylesheet) => {
 		compileSass(stylesheet, `${distPath}/stylesheets`);
-		compileSass(stylesheet, `${mockupPublicPath}/stylesheets`);
+		compileSass(stylesheet, `${baseAppPath}`);
 	})
 });
 
-gulp.task('build', ['sass']);
+gulp.task('build', ['sass', 'move-data-into-app']);
