@@ -16,7 +16,7 @@ export default class Headings extends React.Component {
 
         return (
             <React.Fragment>
-                <section className="dgds_card">
+                <section className="dgds_card" id="fonts">
                     <h2>Fonts</h2>
                     <p>Some overview text goes here</p>
                     {hasFontsSpecific &&
@@ -36,7 +36,7 @@ export default class Headings extends React.Component {
                         })}
                     {!hasFontsSpecific && <p>No fonts specified</p>}
                 </section>
-                <section className="dgds_card">
+                <section className="dgds_card" id="styles">
                     <h2>Styles</h2>
                     {hasFontsSpecific &&
                         this.props.fonts.map((font, fontIndex) => {
