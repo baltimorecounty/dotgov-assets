@@ -2,6 +2,10 @@ import React from 'react';
 import Headings from './Headings';
 
 export default class Index extends React.Component {
+	state = {
+		componentFriendlyName: "Typography"
+	}
+
 	render() {
 		const headingsMarkup = (
             <React.Fragment>

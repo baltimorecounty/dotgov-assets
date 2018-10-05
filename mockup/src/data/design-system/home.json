@@ -1,0 +1,30 @@
+{
+	"mission": "Provide fast, user friendly, consistent experiences to all consumers of our websites and applications.",
+	"sections": [
+		{
+			"title": "What is this?",
+			"description": "A detailed blueprint for managing websites at Baltimore County. Following this guide will help us provide a consistent experience to users, while making maintenance of the websites and their resources more manageable."
+		},
+		{
+			"title": "Who is this for?",
+			"description": "This is intended for designers and developers working on Baltimore County related website projects. But, since it's open source, anyone can take advantage of it. If it's useful to you, use it."
+		},
+		{
+			"title": "To Bootstrap, or not to Bootstrap?",
+			"description": "A lot of our projects use Bootstrap, but not all of them. We are choosing to exclude bootstrap to reduce the size and customize our feel. We also have to work around our cms, which makes bootstrap difficult to use at times. Bootstrap has some great stuff, so don't be afraid to use them as inspiration when designing or developing."
+		},
+		{
+			"title": "How can I use it?",
+			"description": "Our documentation provides everything you need to get started. Start with the Getting Started section. (TODO: added documentation)"
+		},
+		{
+			"title": "Why did we make it?",
+			"description": "We wanted users to get a branded feel of using a Baltimore County website or app. Consistency makes all our stuff easier to maintain and let's us spend more time on solving problems and providing services."
+		},
+		{
+			"title": "Want to contribute?",
+			"description": "You don't have to work at Baltimore County to contribute. Follow this guide (TODO) add guide to get started."
+		}
+	],
+	"shoutOut": "Shoutout to USPTO for the inspiration (and some wording) in this guide. (TODO: ADD LINK)"
+}
