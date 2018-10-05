@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 
 const { SubMenu } = Menu;
@@ -39,9 +40,7 @@ export default class DesignSystemLayout extends React.Component {
                         defaultSelectedKeys={['2']}
                         style={{ lineHeight: '64px' }}
                     >
-                        <Menu.Item key="1">nav 1</Menu.Item>
-                        <Menu.Item key="2">nav 2</Menu.Item>
-                        <Menu.Item key="3">nav 3</Menu.Item>
+                        <Menu.Item key="1"><Link to="/design-system">Home</Link></Menu.Item>
                     </Menu>
                 </Header>
                 <Layout>
@@ -55,16 +54,14 @@ export default class DesignSystemLayout extends React.Component {
                             <SubMenu
                                 key="sub1"
                                 title={
-                                    <span>
-                                        <Icon type="user" />
-                                        subnav 1
-                                    </span>
+										<span>
+											<Icon type="edit" />
+											Typography
+										</span>
                                 }
                             >
-                                <Menu.Item key="1">option1</Menu.Item>
-                                <Menu.Item key="2">option2</Menu.Item>
-                                <Menu.Item key="3">option3</Menu.Item>
-                                <Menu.Item key="4">option4</Menu.Item>
+                                <Menu.Item key="1"><Link to="/design-system/typography#fonts">Fonts</Link></Menu.Item>
+                                <Menu.Item key="2"><Link to="/design-system/typography#styles">Styles</Link></Menu.Item>
                             </SubMenu>
                             <SubMenu
                                 key="sub2"
