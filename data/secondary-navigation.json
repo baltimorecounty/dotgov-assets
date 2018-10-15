@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Residents",
+		"icon": "home",
+		"link": "/residents"
+	},
+	{
+		"name": "Businesses",
+		"icon": "user",
+		"link": "/businesses"
+	},
+	{
+		"name": "Visitors",
+		"icon": "users",
+		"link": "/visitors"
+	}
+]
