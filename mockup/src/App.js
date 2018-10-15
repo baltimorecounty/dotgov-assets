@@ -6,6 +6,7 @@ import DesignSystem from './pages/DesignSystem';
 import Typography from './components/Typography/Index.js';
 import DefaultLayout from './layouts/Layout';
 import DesignSystemLayout from './layouts/DesignSystemLayout';
+import '@fortawesome/fontawesome-pro/css/all.css';
 import 'antd/dist/antd.css';
 import './App.css';
 import './bc-main.css';
