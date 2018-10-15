@@ -4,7 +4,6 @@ import primaryNavigationItems from '../../data/primary-navigation.json';
 
 export default class PrimaryNavigation extends React.Component {
     render() {
-		console.log(primaryNavigationItems);
         return (
             <nav className="dg_primary-navigation">
                 <NavList items={primaryNavigationItems} />
