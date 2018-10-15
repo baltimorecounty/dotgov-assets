@@ -21,6 +21,7 @@
   "homepage": "https://github.com/baltimorecounty/dotgov-assets#readme",
   "dependencies": {},
   "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.4.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
   }

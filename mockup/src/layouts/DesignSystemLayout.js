@@ -68,14 +68,14 @@ export default class DesignSystemLayout extends React.Component {
                                 title={
                                     <span>
                                         <Icon type="laptop" />
-                                        subnav 2
+                                        Navigation
                                     </span>
                                 }
                             >
-                                <Menu.Item key="5">option5</Menu.Item>
-                                <Menu.Item key="6">option6</Menu.Item>
-                                <Menu.Item key="7">option7</Menu.Item>
-                                <Menu.Item key="8">option8</Menu.Item>
+                                <Menu.Item key="5"><Link to="/design-system/navigation#primary-navigation">Primary</Link></Menu.Item>
+                                <Menu.Item key="6"><Link to="/design-system/navigation#secondary-navigation">Secondary</Link></Menu.Item>
+								<Menu.Item key="7"><Link to="/design-system/navigation#nav-list">Nav List</Link></Menu.Item>
+                                <Menu.Item key="8"><Link to="/design-system/navigation#nav-list-item">Nav List Item</Link></Menu.Item>
                             </SubMenu>
                             <SubMenu
                                 key="sub3"

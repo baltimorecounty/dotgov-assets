@@ -4,8 +4,10 @@ import { HashRouter } from 'react-router-dom';
 import HomePage from './pages/Homepage';
 import DesignSystem from './pages/DesignSystem';
 import Typography from './components/Typography/Index.js';
+import Navigation from './components/Navigation/Index';
 import DefaultLayout from './layouts/Layout';
 import DesignSystemLayout from './layouts/DesignSystemLayout';
+import '@fortawesome/fontawesome-pro/css/all.css';
 import 'antd/dist/antd.css';
 import './App.css';
 import './bc-main.css';
@@ -48,6 +50,12 @@ class App extends Component {
                         layout={DesignSystemLayout}
                         path={`/design-system/typography`}
                         component={Typography}
+                    />
+					<RouteWithLayout
+                        exact
+                        layout={DesignSystemLayout}
+                        path={`/design-system/navigation`}
+                        component={Navigation}
                     />
                 </Switch>
             </HashRouter>

@@ -1,1 +1,15 @@
-@import 'colors';
+$color-lightest-ratio: 10%;
+$color-light-ratio: 5%;
+$color-dark-ratio: 5%;
+$color-darkest-ratio: 50%;
+
+$black: #333;
+$white: #fff;
+$gray: #e0e0e0;
+
+$gray-lightest: lighten($gray, $color-lightest-ratio);
+$gray-light: lighten($gray, $color-light-ratio);
+$gray-dark: darken($gray, $color-dark-ratio);
+$gray-darkest: darken($gray, $color-darkest-ratio);
+
+
