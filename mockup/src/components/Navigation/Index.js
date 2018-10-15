@@ -17,8 +17,8 @@ export default class Index extends React.Component {
 			{
 				key: 2,
 				property: 'icon',
-				description: 'A FontAwesome Icon that will help the user identify the navigation item',
-				example: "list-ul (no need to include any font-awesome prefixes, we will handle that for you)"
+				description: 'A FontAwesome Icon that will help the user identify the navigation item. Follow the font awesome guidelines to add an icon.',
+				example: '<i class="fas fa-list-ul"></i>'
 			},
 			{
 				key: 3,
@@ -69,7 +69,7 @@ export default class Index extends React.Component {
 					</div>
 					<div>
 						<h3>Navigation List Item Data</h3>
-						<Table columns={dataColumns} dataSource={sourceData} />
+						<Table columns={dataColumns} dataSource={sourceData} pagination={false} />
 					</div>
 				</Card>
 			</React.Fragment>
