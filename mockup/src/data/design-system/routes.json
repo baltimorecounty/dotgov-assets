@@ -1,0 +1,10 @@
+[
+    {
+        "component": "LinkList",
+        "path": "link-list"
+    },
+    {
+        "component": "Typography",
+        "path": "typography"
+    }
+]

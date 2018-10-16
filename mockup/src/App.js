@@ -3,9 +3,6 @@ import { Route, Switch } from 'react-router';
 import { HashRouter } from 'react-router-dom';
 import HomePage from './pages/Homepage';
 import DesignSystem from './pages/DesignSystem';
-import Typography from './components/Typography/Index';
-import Navigation from './components/Navigation/Index';
-import LinkList from './components/Lists/Index';
 import DefaultLayout from './layouts/Layout';
 import DesignSystemLayout from './layouts/DesignSystemLayout';
 import '@fortawesome/fontawesome-pro/css/all.css';
@@ -13,6 +10,7 @@ import 'antd/dist/antd.css';
 import './App.css';
 import './bc-main.css';
 import './dotgov-main.css';
+import Routes from './Routes';
 
 const RouteWithLayout = ({ layout, component, ...rest }) => {
     return (
@@ -46,24 +44,17 @@ class App extends Component {
                         path={`/design-system`}
                         component={DesignSystem}
                     />
-					<RouteWithLayout
-                        exact
-                        layout={DesignSystemLayout}
-                        path={`/design-system/typography`}
-                        component={Typography}
-                    />
-					<RouteWithLayout
-                        exact
-                        layout={DesignSystemLayout}
-                        path={`/design-system/navigation`}
-                        component={Navigation}
-                    />
-					<RouteWithLayout
-                        exact
-                        layout={DesignSystemLayout}
-                        path={`/design-system/link-list`}
-                        component={LinkList}
-                    />
+                    {Routes.map((route, routeIndex) => {
+                        return (
+                            <RouteWithLayout
+                                key={routeIndex}
+                                exact
+                                layout={DesignSystemLayout}
+                                path={`/design-system/${route.path}`}
+                                component={route.component}
+                            />
+                        );
+                    })}
                 </Switch>
             </HashRouter>
         );
