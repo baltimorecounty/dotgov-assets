@@ -2,8 +2,10 @@ import React from 'react';
 import Highlight from 'react-highlight';
 import { Card, Table } from 'antd';
 import DocSection from '../DesignSystem/DocSection';
+import BasicComponentInfo from '../DesignSystem/BasicComponentInformation';
 import PrimaryNavigation from '../Navigation/PrimaryNavigation';
 import PrimaryNavigationMarkup from './examples/PrimaryNavigation.html.js';
+import docsData from '../../data/design-system/docs/primary-navigation.json';
 
 export default class Index extends React.Component {
     render() {
@@ -51,30 +53,7 @@ export default class Index extends React.Component {
         return (
             <React.Fragment>
                 <Card style={bottomMargin}>
-                    <h2>Primary Navigation</h2>
-                    <DocSection>
-                        <h3>Purpose</h3>
-                        <p>
-                            A consistent list of major categories that allow the
-                            user to navigate the site from any page. List items
-                            include icons and simple text labels for easy
-                            identification.
-                        </p>
-                    </DocSection>
-                    <DocSection>
-                        <h3>Description</h3>
-                        <p>
-                            Primary navigation is non-hierarchical. It's
-                            intended to deliver users to tasks and topics
-                            without drilling through a folder structure or
-                            sub-menus.
-                        </p>
-                        <p>
-                            <em>Note</em>: This is a global element. It appears
-                            on every page and can only be edited by site
-                            administrators.
-                        </p>
-                    </DocSection>
+                   <BasicComponentInfo data={docsData} />
                     <DocSection>
                         <h3>Example</h3>
                         <DocSection>
