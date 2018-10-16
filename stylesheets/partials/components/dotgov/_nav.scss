@@ -1,5 +1,4 @@
 $nav-border-size: 3px;
-
 .dg_nav {
     margin: 0;
 }
@@ -12,24 +11,21 @@ $nav-border-size: 3px;
         .bc_nav-list-item {
             padding: 0;
             a {
-				border-bottom: $nav-border-size solid transparent;
-				border-top: $nav-border-size solid transparent;
-				display: block;
-				padding: ($default-padding - $nav-border-size) $default-padding;
-			}
-
-			a,
-			i {
-				transition: all ease-in-out .3s;
-			}
-
+                border-bottom: $nav-border-size solid transparent;
+                border-top: $nav-border-size solid transparent;
+                display: block;
+                padding: ($default-padding - $nav-border-size) $default-padding;
+            }
+            a,
+            i {
+                transition: all ease-in-out .3s;
+            }
             &:hover a {
                 border-bottom-color: $gold;
-			}
-
-			&:hover i {
-				color: $gold;
-			}
+            }
+            &:hover i {
+                color: $gold;
+            }
         }
     }
 }
