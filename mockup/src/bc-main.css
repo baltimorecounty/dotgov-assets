@@ -24,4 +24,10 @@
       border-right: none; }
 
 .bc_link-list {
-  margin: 0; }
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .bc_link-list li {
+    display: inline-block; }
+    .bc_link-list li a {
+      display: block; }
