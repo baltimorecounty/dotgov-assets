@@ -13,7 +13,8 @@ $nav-border-size: 3px;
             a {
                 border-bottom: $nav-border-size solid transparent;
                 border-top: $nav-border-size solid transparent;
-                display: block;
+				display: block;
+				font-size: 14px;
                 padding: ($default-padding - $nav-border-size) $default-padding;
 			}
 

@@ -1,0 +1,15 @@
+.dg_homepage-search {
+    position: relative;
+    max-width: 80%;
+    input {
+        width: 100%;
+    }
+    i {
+        background: #feb30c;
+		color: #fff;
+		padding: 9px;
+        position: absolute;
+        right: 1px;
+        top: 0px;
+    }
+}

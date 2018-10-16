@@ -6,6 +6,30 @@
 
 		a {
 			display: block;
+			padding: $default-padding;
 		}
 	}
+
+	&.bc_link-list--grid {
+		display: flex;
+		flex-wrap: wrap;
+
+		li {
+			display: block;
+		}
+
+		a {
+			background: $white;
+			border: 1px solid $gray;
+			margin: $small-margin;
+			padding: $small-padding;
+		}
+	}
+
+	&.bc_link-list--columns-3 {
+		li {
+			width: 33%;
+		}
+	}
+
 }
