@@ -99,8 +99,6 @@ a {
   .dg_primary-action-container .dg_primacy-action {
     width: 50%; }
   .dg_primary-action-container .dg_primary-services-list {
-    display: flex;
-    flex-wrap: wrap;
     font-size: 12px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
