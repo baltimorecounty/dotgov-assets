@@ -7,9 +7,11 @@ const propTypes = {
 
 export default class LinkList extends React.Component {
     render() {
+        const { items, className } = this.props;
+        const cssClasses = `bc_link-list${className ? ` ${className}` : ''}`;
         return (
-            <ul className="bc_link-list">
-                {this.props.items.map((item, itemKey) => (
+            <ul className={cssClasses}>
+                {items.map((item, itemKey) => (
                     <li key={itemKey}>
                         <a href={item.link}>
                             <i className={`fas fa-${item.icon}`} /> {item.name}
