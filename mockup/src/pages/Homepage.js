@@ -7,9 +7,11 @@ export default class Homepage extends React.Component {
 		return (
 			<React.Fragment>
 				<SiteHeader />
-				<h1>Baltimore County Government</h1>
-				<p>this is a placeholder page for the homepage</p>
-				<Link to='/design-system'>Design System</Link>
+				<div className="dg_main-content" style={{margin: '30px auto'}}>
+					<h1>Baltimore County Government</h1>
+					<p>this is a placeholder page for the homepage</p>
+					<Link to='/design-system'>Design System</Link>
+				</div>
 			</React.Fragment>
 		);
 	}
