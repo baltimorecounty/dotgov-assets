@@ -1,6 +1,6 @@
 body {
   font-family: "Crimson Text", serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400; }
 
 h1,
@@ -26,6 +26,8 @@ h1 {
 
 .dg_secondary-nav {
   background: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
   text-align: right; }
   .dg_secondary-nav .dg_secondary-nav-list li {
     padding: 15px 30px; }
