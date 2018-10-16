@@ -8,4 +8,24 @@
 			display: block;
 		}
 	}
+
+	&.bc_link-list--grid {
+		li {
+			display: block;
+		}
+
+		a {
+			background: $white;
+			border: 1px solid $gray;
+			margin: $small-margin;
+			padding: $small-padding;
+		}
+	}
+
+	&.bc_link-list--columns-3 {
+		li {
+			width: 33%;
+		}
+	}
+
 }

@@ -1,7 +1,7 @@
 body {
-	font-family: $body-font-family;
-	font-size: $base-font-size;
-	font-weight: $default-font-weight;
+    font-family: $body-font-family;
+    font-size: $base-font-size;
+    font-weight: $default-font-weight;
 }
 
 h1,
@@ -10,9 +10,9 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $heading-font-family;
+    font-family: $heading-font-family;
 }
 
 h1 {
-	font-weight: $bold-font-weight;
+    font-weight: $bold-font-weight;
 }
