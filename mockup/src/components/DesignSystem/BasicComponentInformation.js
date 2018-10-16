@@ -8,7 +8,12 @@ const propTypes = {
 
 export default class BasicComponentInformation extends React.Component {
     render() {
-        const { title, purpose, description } = this.props.data;
+        const {
+            title,
+            purpose,
+            description,
+		} = this.props.data;
+
         return (
             <React.Fragment>
                 <h2>{title}</h2>
