@@ -19,3 +19,11 @@ h1 {
 
 .dg_nav {
   margin: 0; }
+
+.dg_secondary-nav {
+  background: #333;
+  text-align: right; }
+  .dg_secondary-nav .dg_secondary-nav-list li {
+    padding: 15px 30px; }
+  .dg_secondary-nav a {
+    color: #fff; }
