@@ -1,6 +1,7 @@
 import React from 'react';
 import Highlight from 'react-highlight';
 import { Card, Table } from 'antd';
+import DocSection from '../DesignSystem/DocSection';
 import PrimaryNavigation from '../Navigation/PrimaryNavigation';
 import PrimaryNavigationMarkup from './examples/PrimaryNavigation.html.js';
 
@@ -51,7 +52,7 @@ export default class Index extends React.Component {
             <React.Fragment>
                 <Card style={bottomMargin}>
                     <h2>Primary Navigation</h2>
-                    <div style={bottomMargin}>
+                    <DocSection>
                         <h3>Purpose</h3>
                         <p>
                             A consistent list of major categories that allow the
@@ -59,8 +60,8 @@ export default class Index extends React.Component {
                             include icons and simple text labels for easy
                             identification.
                         </p>
-                    </div>
-                    <div style={bottomMargin}>
+                    </DocSection>
+                    <DocSection>
                         <h3>Description</h3>
                         <p>
                             Primary navigation is non-hierarchical. It's
@@ -73,27 +74,27 @@ export default class Index extends React.Component {
                             on every page and can only be edited by site
                             administrators.
                         </p>
-                    </div>
-                    <div style={bottomMargin}>
+                    </DocSection>
+                    <DocSection>
                         <h3>Example</h3>
-                        <div style={bottomMargin}>
+                        <DocSection>
                             <PrimaryNavigation />
-                        </div>
-                    </div>
-                    <div style={bottomMargin}>
+                        </DocSection>
+                    </DocSection>
+                    <DocSection>
                         <h3>Code</h3>
                         <Highlight className="html">
                             {PrimaryNavigationMarkup}
                         </Highlight>
-                    </div>
-                    <div>
+                    </DocSection>
+                    <DocSection>
                         <h3>Navigation List Item Data</h3>
                         <Table
                             columns={dataColumns}
                             dataSource={sourceData}
                             pagination={false}
                         />
-                    </div>
+                    </DocSection>
                 </Card>
             </React.Fragment>
         );
