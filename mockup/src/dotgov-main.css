@@ -1,6 +1,6 @@
 body {
   font-family: "Crimson Text", serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400; }
 
 h1,
@@ -63,6 +63,7 @@ a {
       border-bottom: 3px solid transparent;
       border-top: 3px solid transparent;
       display: block;
+      font-size: 14px;
       padding: 12px 15px; }
     .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item i {
       transition: all ease-in-out 0.3s; }
