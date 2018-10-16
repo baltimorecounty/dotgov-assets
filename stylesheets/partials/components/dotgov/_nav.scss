@@ -1,3 +1,18 @@
 .dg_nav {
 	margin: 0;
 }
+
+.dg_secondary-nav {
+	background: $black;
+	text-align: right;
+
+	.dg_secondary-nav-list {
+		li {
+			padding: $default-padding ($default-padding * 2);
+		}
+	}
+
+	a {
+		color: $white;
+	}
+}
