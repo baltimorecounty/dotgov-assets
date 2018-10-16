@@ -15,7 +15,7 @@ export default class NavListItem extends React.Component {
         const { item, itemKey } = this.props;
         return (
             <React.Fragment>
-                <li key={itemKey}>
+                <li key={itemKey} className="bc_nav-list-item">
                     <a href={item.link}>
                         <i className={`fas fa-${item.icon}`} /> {item.name}
                     </a>

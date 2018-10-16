@@ -5,7 +5,7 @@ import SecondaryNavigation from '../Navigation/SecondaryNavigation';
 export default class Header extends React.Component {
     render() {
         return (
-            <header class="dg_site-header">
+            <header className="dg_site-header">
                 <SecondaryNavigation />
                 <PrimaryNavigation />
             </header>

@@ -1,6 +1,6 @@
 body {
   font-family: "Crimson Text", serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400; }
 
 h1,
@@ -20,16 +20,31 @@ h1 {
 .dg_nav {
   margin: 0; }
 
-.dg_primary-navigation {
+.dg_primary-nav {
   background: #ededed;
+  font-size: 16px;
   text-align: right; }
+  .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item {
+    padding: 0; }
+    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item a {
+      border-bottom: 3px solid transparent;
+      border-top: 3px solid transparent;
+      display: block;
+      padding: 12px 15px; }
+    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item a,
+    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item i {
+      transition: all ease-in-out .3s; }
+    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item:hover a {
+      border-bottom-color: #feb30c; }
+    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item:hover i {
+      color: #feb30c; }
 
 .dg_secondary-nav {
   background: #333;
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   text-align: right; }
-  .dg_secondary-nav .dg_secondary-nav-list li {
+  .dg_secondary-nav .dg_secondary-nav-list a {
     padding: 15px 30px; }
   .dg_secondary-nav a {
     color: #fff; }
