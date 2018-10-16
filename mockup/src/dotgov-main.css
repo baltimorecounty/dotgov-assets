@@ -20,6 +20,10 @@ h1 {
 .dg_nav {
   margin: 0; }
 
+.dg_primary-navigation {
+  background: #ededed;
+  text-align: right; }
+
 .dg_secondary-nav {
   background: #333;
   text-align: right; }
