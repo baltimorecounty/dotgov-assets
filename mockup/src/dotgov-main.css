@@ -14,6 +14,10 @@ h6 {
 h1 {
   font-weight: 700; }
 
+input {
+  border: 1px solid #e0e0e0;
+  padding: 2.5px 7.5px; }
+
 * {
   box-sizing: border-box; }
 
@@ -85,3 +89,54 @@ a {
       background: #616161; }
   .dg_secondary-nav a {
     color: #fff; }
+
+.dg_primary-action-container {
+  display: flex;
+  margin: 60px auto; }
+  .dg_primary-action-container .dg_primacy-action-heading {
+    font-weight: 700;
+    margin-left: 7.5px; }
+  .dg_primary-action-container .dg_primacy-action {
+    width: 50%; }
+  .dg_primary-action-container .dg_primary-services-list {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .dg_primary-action-container .dg_primary-services-list a {
+      color: #616161;
+      display: flex;
+      align-items: center;
+      padding: 15px; }
+      .dg_primary-action-container .dg_primary-services-list a:hover {
+        background: #feb30c; }
+        .dg_primary-action-container .dg_primary-services-list a:hover i {
+          color: #fff; }
+    .dg_primary-action-container .dg_primary-services-list i {
+      color: #feb30c;
+      display: inline-block;
+      margin-right: 7.5px;
+      font-size: 22px;
+      transition: all ease-in-out 0.3s; }
+
+.dg_homepage-search {
+  position: relative;
+  max-width: 80%; }
+  .dg_homepage-search input {
+    width: 100%; }
+  .dg_homepage-search i {
+    background: #feb30c;
+    color: #fff;
+    padding: 9px;
+    position: absolute;
+    right: 1px;
+    top: 0px; }
+
+.dg_icon-btn {
+  background: #feb30c;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s; }
+  .dg_icon-btn:hover {
+    background: #f0a601; }
