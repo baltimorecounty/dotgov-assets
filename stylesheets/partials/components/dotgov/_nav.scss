@@ -15,11 +15,12 @@ $nav-border-size: 3px;
                 border-top: $nav-border-size solid transparent;
                 display: block;
                 padding: ($default-padding - $nav-border-size) $default-padding;
-            }
-            a,
+			}
+
             i {
-                transition: all ease-in-out .3s;
-            }
+                transition: $default-transition;
+			}
+
             &:hover a {
                 border-bottom-color: $gold;
             }
@@ -33,11 +34,17 @@ $nav-border-size: 3px;
 .dg_secondary-nav {
     background: $black;
     font-family: $heading-font-family;
+    font-size: $default-font-size;
     font-weight: 100;
+    padding: 0 $default-padding;
     text-align: right;
     .dg_secondary-nav-list {
         a {
-            padding: $default-padding ($default-padding * 2);
+			padding: $default-padding;
+
+			&:hover {
+				background: $gray-darkest;
+			}
         }
     }
     a {

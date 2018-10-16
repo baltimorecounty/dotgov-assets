@@ -17,6 +17,9 @@ h1 {
 * {
   box-sizing: border-box; }
 
+a {
+  transition: all ease-in-out 0.3s; }
+
 .dg_nav {
   margin: 0; }
 
@@ -31,9 +34,8 @@ h1 {
       border-top: 3px solid transparent;
       display: block;
       padding: 12px 15px; }
-    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item a,
     .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item i {
-      transition: all ease-in-out .3s; }
+      transition: all ease-in-out 0.3s; }
     .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item:hover a {
       border-bottom-color: #feb30c; }
     .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item:hover i {
@@ -42,9 +44,13 @@ h1 {
 .dg_secondary-nav {
   background: #333;
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   font-weight: 100;
+  padding: 0 15px;
   text-align: right; }
   .dg_secondary-nav .dg_secondary-nav-list a {
-    padding: 15px 30px; }
+    padding: 15px; }
+    .dg_secondary-nav .dg_secondary-nav-list a:hover {
+      background: #616161; }
   .dg_secondary-nav a {
     color: #fff; }
