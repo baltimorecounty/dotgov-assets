@@ -1,0 +1,8 @@
+{
+	"title": "Primary Navigation",
+	"purpose": "A consistent list of major categories that allow the user to navigate the site from any page. List items include icons and simple text labels for easy identification.",
+	"description": [
+		"Primary navigation is non-hierarchical. It's intended to deliver users to tasks and topics without drilling through a folder structure or sub-menus.",
+		"Note: This is a global element. It appears on every page and can only be edited by site administrators."
+	]
+}
