@@ -4,3 +4,13 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+	margin: auto;
+	max-width: 1400px;
+	width: 100%;
+} /* This needs to be removed in favor of containers */
+
+a {
+	transition: $default-transition;
+}

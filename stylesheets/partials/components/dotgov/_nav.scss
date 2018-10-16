@@ -1,3 +1,53 @@
+$nav-border-size: 3px;
 .dg_nav {
-	margin: 0;
+    margin: 0;
+}
+
+.dg_primary-nav {
+    background: $gray-light;
+    font-size: $default-font-size;
+    text-align: right;
+    .dg_primary-nav-list {
+        .bc_nav-list-item {
+            padding: 0;
+            a {
+                border-bottom: $nav-border-size solid transparent;
+                border-top: $nav-border-size solid transparent;
+                display: block;
+                padding: ($default-padding - $nav-border-size) $default-padding;
+			}
+
+            i {
+                transition: $default-transition;
+			}
+
+            &:hover a {
+                border-bottom-color: $gold;
+            }
+            &:hover i {
+                color: $gold;
+            }
+        }
+    }
+}
+
+.dg_secondary-nav {
+    background: $black;
+    font-family: $heading-font-family;
+    font-size: $default-font-size;
+    font-weight: 100;
+    padding: 0 $default-padding;
+    text-align: right;
+    .dg_secondary-nav-list {
+        a {
+			padding: $default-padding;
+
+			&:hover {
+				background: $gray-darkest;
+			}
+        }
+    }
+    a {
+        color: $white;
+    }
 }

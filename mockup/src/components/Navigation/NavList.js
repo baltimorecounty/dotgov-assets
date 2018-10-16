@@ -8,8 +8,10 @@ const propTypes = {
 
 export default class NavList extends React.Component {
     render() {
+		const className = this.props.className || '';
+		const cssClasses = `bc_nav-list${className ? ` ${className}`: ''}`;
         return (
-            <ul className="bc_nav-list">
+            <ul className={cssClasses}>
                 {this.props.items.map((item, itemKey) => (
                     <NavListItem item={item} key={itemKey} />
                 ))}

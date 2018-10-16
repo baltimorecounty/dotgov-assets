@@ -1,0 +1,26 @@
+.dg_brand {
+    display: inline-block;
+	font-family: $heading-font-family;
+	position: absolute;
+
+    text-align: center;
+    text-transform: uppercase;
+    .dg_logo-container,
+    .dg_logo {
+        margin-bottom: $small-margin;
+    }
+    .dg_logo-container {
+        background: $gold;
+        font-size: 12px;
+        font-weight: 900;
+        padding: $small-padding 0 2.5px;
+    }
+    .dg_logo {
+		max-width: 69px;
+        width: 100%;
+	}
+	.dg_logo-subtext {
+		font-size: 8px;
+		letter-spacing: 6px;
+	}
+}

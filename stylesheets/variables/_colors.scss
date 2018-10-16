@@ -3,6 +3,7 @@ $color-light-ratio: 5%;
 $color-dark-ratio: 5%;
 $color-darkest-ratio: 50%;
 
+$gold: #feb30c;
 $black: #333;
 $white: #fff;
 $gray: #e0e0e0;
@@ -11,5 +12,11 @@ $gray-lightest: lighten($gray, $color-lightest-ratio);
 $gray-light: lighten($gray, $color-light-ratio);
 $gray-dark: darken($gray, $color-dark-ratio);
 $gray-darkest: darken($gray, $color-darkest-ratio);
+
+
+$gold-lightest: lighten($gold, $color-lightest-ratio);
+$gold-light: lighten($gold, $color-light-ratio);
+$gold-dark: darken($gold, $color-dark-ratio);
+$gold-darkest: darken($gold, $color-darkest-ratio);
 
 

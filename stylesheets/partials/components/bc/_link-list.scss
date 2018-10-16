@@ -1,3 +1,11 @@
 .bc_link-list {
-	margin: 0;
+	@include resetList();
+
+	li {
+		display: inline-block;
+
+		a {
+			display: block;
+		}
+	}
 }

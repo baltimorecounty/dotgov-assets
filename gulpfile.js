@@ -3,10 +3,11 @@ const sass = require('gulp-sass');
 
 const basePath = './src';
 const baseSassPath = `./stylesheets`;
-const dateFiles = './data/**/*.json';
+const dataFiles = './data/**/*.json';
+const imageFiles = './img/**/*';
 const baseAppPath = `./mockup/${basePath}`;
 const appDataPath = `${baseAppPath}/data`;
-const mockupPublicPath = `./mockup/public`;
+const appImagePath = `${baseAppPath}/img`;
 const distPath = './dist';
 
 const stylesheets = [
@@ -22,7 +23,11 @@ const compileSass = (path, destination) => {
 };
 
 gulp.task('move-data-into-app', () => {
-    return gulp.src([dateFiles]).pipe(gulp.dest(appDataPath));
+    return gulp.src([dataFiles]).pipe(gulp.dest(appDataPath));
+});
+
+gulp.task('move-images-into-app', () => {
+    return gulp.src([imageFiles]).pipe(gulp.dest(appImagePath));
 });
 
 gulp.task('sass', () => {
@@ -32,9 +37,10 @@ gulp.task('sass', () => {
     });
 });
 
-gulp.task('build', ['sass', 'move-data-into-app']);
+gulp.task('build', ['sass', 'move-data-into-app', 'move-images-into-app']);
 
-gulp.task('assets:watch', function() {
+gulp.task('watch:assets', function() {
+	gulp.watch('./img/**/*', ['build']);
 	gulp.watch('./data/**/*.json', ['build']);
     gulp.watch('./stylesheets/**/*.scss', ['build']);
 });

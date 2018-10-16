@@ -1,0 +1,7 @@
+{
+	"title": "Link List",
+	"purpose": "Used when you need to provide a list of multiple links to the user.",
+	"description": [
+		"Lists are typically inline and contain FontAwesome Icons."
+	]
+}

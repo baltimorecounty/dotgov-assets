@@ -17,5 +17,70 @@ h1 {
 * {
   box-sizing: border-box; }
 
+body {
+  margin: auto;
+  max-width: 1400px;
+  width: 100%; }
+
+/* This needs to be removed in favor of containers */
+a {
+  transition: all ease-in-out 0.3s; }
+
+.dg_site-header {
+  position: relative; }
+
+.dg_brand {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase; }
+  .dg_brand .dg_logo-container,
+  .dg_brand .dg_logo {
+    margin-bottom: 7.5px; }
+  .dg_brand .dg_logo-container {
+    background: #feb30c;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 7.5px 0 2.5px; }
+  .dg_brand .dg_logo {
+    max-width: 69px;
+    width: 100%; }
+  .dg_brand .dg_logo-subtext {
+    font-size: 8px;
+    letter-spacing: 6px; }
+
 .dg_nav {
   margin: 0; }
+
+.dg_primary-nav {
+  background: #ededed;
+  font-size: 16px;
+  text-align: right; }
+  .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item {
+    padding: 0; }
+    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item a {
+      border-bottom: 3px solid transparent;
+      border-top: 3px solid transparent;
+      display: block;
+      padding: 12px 15px; }
+    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item i {
+      transition: all ease-in-out 0.3s; }
+    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item:hover a {
+      border-bottom-color: #feb30c; }
+    .dg_primary-nav .dg_primary-nav-list .bc_nav-list-item:hover i {
+      color: #feb30c; }
+
+.dg_secondary-nav {
+  background: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 0 15px;
+  text-align: right; }
+  .dg_secondary-nav .dg_secondary-nav-list a {
+    padding: 15px; }
+    .dg_secondary-nav .dg_secondary-nav-list a:hover {
+      background: #616161; }
+  .dg_secondary-nav a {
+    color: #fff; }
