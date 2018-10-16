@@ -1,0 +1,11 @@
+.dg_btn {}
+
+.dg_icon-btn {
+	background: $gold;
+	cursor: pointer;
+	transition: $default-transition;
+
+	&:hover {
+		background: $gold-dark;
+	}
+}

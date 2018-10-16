@@ -6,6 +6,7 @@ import DesignSystem from './pages/DesignSystem';
 import Typography from './components/Typography/Index';
 import Navigation from './components/Navigation/Index';
 import LinkList from './components/Lists/Index';
+import Containers from './components/Containers/Index';
 import DefaultLayout from './layouts/Layout';
 import DesignSystemLayout from './layouts/DesignSystemLayout';
 import '@fortawesome/fontawesome-pro/css/all.css';
@@ -63,6 +64,12 @@ class App extends Component {
                         layout={DesignSystemLayout}
                         path={`/design-system/link-list`}
                         component={LinkList}
+                    />
+					<RouteWithLayout
+                        exact
+                        layout={DesignSystemLayout}
+                        path={`/design-system/containers`}
+                        component={Containers}
                     />
                 </Switch>
             </HashRouter>

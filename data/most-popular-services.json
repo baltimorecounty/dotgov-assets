@@ -11,7 +11,7 @@
 	},
 	{
 		"name": "Police News",
-		"icon": "home",
+		"icon": "newspaper",
 		"link": "/police-news"
 	},
 	{
@@ -21,17 +21,17 @@
 	},
 	{
 		"name": "Neighborhood Maps",
-		"icon": "map",
+		"icon": "map-marker-alt",
 		"link": "/maps"
 	},
 	{
-		"name": "Trash Facilities and Schedules",
+		"name": "Trash Schedule",
 		"icon": "trash-alt",
 		"link": "/trash"
 	},
 	{
 		"name": "Jury Duty",
-		"icon": "user-alt",
+		"icon": "gavel",
 		"link": "/jury-duty"
 	},
 	{

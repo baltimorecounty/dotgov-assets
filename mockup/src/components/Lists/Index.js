@@ -13,7 +13,14 @@ export default class Index extends React.Component {
 				<BasicComponentInformation data={linkListDocsData} />
 				<DocSection>
 					<h3>Example</h3>
-					<LinkList items={exampleLinkItems} />
+					<DocSection>
+						<h4>Default</h4>
+						<LinkList items={exampleLinkItems} />
+					</DocSection>
+					<DocSection>
+						<h4>Grid</h4>
+						<LinkList items={exampleLinkItems.concat(exampleLinkItems)} grid columns={3} />
+					</DocSection>
 				</DocSection>
 			</Card>
 		);

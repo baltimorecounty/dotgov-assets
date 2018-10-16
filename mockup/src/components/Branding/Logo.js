@@ -17,7 +17,7 @@ export default class Logo extends React.Component {
                         County
                     </p>
                 </div>
-                <p class="dg_logo-subtext">Government</p>
+                <p className="dg_logo-subtext">Government</p>
             </div>
         );
     }

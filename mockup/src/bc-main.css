@@ -1,3 +1,8 @@
+.bc_box {
+  background: #ededed;
+  border: 1px solid #e0e0e0;
+  padding: 15px; }
+
 .bc_nav-list {
   list-style-type: none;
   margin: 0;
@@ -29,4 +34,17 @@
   .bc_link-list li {
     display: inline-block; }
     .bc_link-list li a {
+      display: block;
+      padding: 15px; }
+  .bc_link-list.bc_link-list--grid {
+    display: flex;
+    flex-wrap: wrap; }
+    .bc_link-list.bc_link-list--grid li {
       display: block; }
+    .bc_link-list.bc_link-list--grid a {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      margin: 7.5px;
+      padding: 7.5px; }
+  .bc_link-list.bc_link-list--columns-3 li {
+    width: 33%; }
