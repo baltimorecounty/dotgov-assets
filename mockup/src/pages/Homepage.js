@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PrimaryNavigation from '../components/Navigation/PrimaryNavigation';
+import SecondaryNavigation from '../components/Navigation/SecondaryNavigation';
 
 export default class Homepage extends React.Component {
 	constructor(props) {
@@ -12,6 +13,7 @@ export default class Homepage extends React.Component {
 		return (
 			<React.Fragment>
 				<header>
+					<SecondaryNavigation />
 					<PrimaryNavigation />
 				</header>
 				<h1>Baltimore County Government</h1>
