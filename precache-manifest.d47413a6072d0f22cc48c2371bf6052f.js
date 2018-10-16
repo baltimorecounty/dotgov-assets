@@ -24,10 +24,6 @@ self.__precacheManifest = [
     "url": "/dotgov-assets/static/media/seal.67877fbd.svg"
   },
   {
-    "revision": "4a403ef35baa921ffabadb8ab232fa0b",
-    "url": "/dotgov-assets/static/media/fa-brands-400.4a403ef3.woff2"
-  },
-  {
     "revision": "ab7a99ee35fd08674406c27e81301df5",
     "url": "/dotgov-assets/static/media/fa-brands-400.ab7a99ee.eot"
   },
@@ -36,12 +32,16 @@ self.__precacheManifest = [
     "url": "/dotgov-assets/static/media/fa-brands-400.dffe9433.woff"
   },
   {
-    "revision": "32deb82b6640b19efd01f09a75edda12",
-    "url": "/dotgov-assets/static/media/fa-brands-400.32deb82b.ttf"
+    "revision": "4a403ef35baa921ffabadb8ab232fa0b",
+    "url": "/dotgov-assets/static/media/fa-brands-400.4a403ef3.woff2"
   },
   {
     "revision": "f1caac93e5bcd05bbc482de1eac9fc33",
     "url": "/dotgov-assets/static/media/fa-light-300.f1caac93.eot"
+  },
+  {
+    "revision": "32deb82b6640b19efd01f09a75edda12",
+    "url": "/dotgov-assets/static/media/fa-brands-400.32deb82b.ttf"
   },
   {
     "revision": "1be86bd13e93173d04f9451d2722e27c",
@@ -60,10 +60,6 @@ self.__precacheManifest = [
     "url": "/dotgov-assets/static/media/fa-light-300.6b10a2c1.ttf"
   },
   {
-    "revision": "21041d25656d3dfe5fab8e2cf6a25e98",
-    "url": "/dotgov-assets/static/media/fa-light-300.21041d25.svg"
-  },
-  {
     "revision": "e341059f165b89663654789e7805fddf",
     "url": "/dotgov-assets/static/media/fa-regular-400.e341059f.eot"
   },
@@ -74,6 +70,10 @@ self.__precacheManifest = [
   {
     "revision": "4921d601afce0bbc24319b3105c0698f",
     "url": "/dotgov-assets/static/media/fa-regular-400.4921d601.woff"
+  },
+  {
+    "revision": "21041d25656d3dfe5fab8e2cf6a25e98",
+    "url": "/dotgov-assets/static/media/fa-light-300.21041d25.svg"
   },
   {
     "revision": "b81086869d8b5a7fbadae35f2cc4457b",
