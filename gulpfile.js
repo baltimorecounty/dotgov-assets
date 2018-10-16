@@ -34,7 +34,7 @@ gulp.task('sass', () => {
 
 gulp.task('build', ['sass', 'move-data-into-app']);
 
-gulp.task('assets:watch', function() {
+gulp.task('watch:assets', function() {
 	gulp.watch('./data/**/*.json', ['build']);
     gulp.watch('./stylesheets/**/*.scss', ['build']);
 });
