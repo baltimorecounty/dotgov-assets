@@ -1,7 +1,36 @@
-.grid {
-    display: flex;
+.bc_grid {
+	display: flex;
+	justify-content: space-between;
 }
 
-.col {
-    flex: 1;
+.bc_col {
+	flex: 1;
+}
+
+[class*=bc_grid-cols] .bc_col {
+	flex: none;
+}
+
+.bc_grid-cols-2 .bc_col {
+	width: 49%;
+}
+
+.bc_grid-cols-3 .bc_col {
+	width: 32%;
+}
+
+/* TODO: Convert this to a variable */
+@media (max-width: $small-screen) {
+    .bc_grid {
+        display: block;
+	}
+
+	.bc_col {
+		margin-bottom: $default-margin;
+	}
+
+	.bc_grid-cols-2 .bc_col,
+	.bc_grid-cols-3 .bc_col {
+		width: 100%;
+	}
 }

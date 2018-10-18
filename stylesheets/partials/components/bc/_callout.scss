@@ -1,6 +1,11 @@
 .bc_callout {
 	position: relative;
 
+	.bc_callout-img {
+		max-width: 100%;
+		width: 100%;
+	}
+
 	.bc_callout-figure {
 		background: white;
 		padding: $default-padding ($default-padding * 2);
@@ -11,5 +16,15 @@
 	.bc_callout-subtitle {
 		font-size: 16px;
 		text-transform: uppercase;
+	}
+}
+
+@media screen and (max-width: $small-screen) {
+	.bc_callout {
+		width: 100%;
+
+		.bc_callout-figure {
+			position: static;
+		}
 	}
 }

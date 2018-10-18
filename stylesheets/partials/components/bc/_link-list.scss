@@ -1,35 +1,75 @@
 .bc_link-list {
-	@include resetList();
+    @include resetList();
+    li {
+        display: inline-block;
+        a {
+            display: block;
+            padding: $default-padding;
+        }
+    }
+}
 
-	li {
-		display: inline-block;
+.bc_link-list--grid {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-family: $heading-font-family;
+    font-weight: 700;
+    text-transform: uppercase;
+    li {
+        display: block;
+    }
+    a {
+        background: $white;
+        border: 1px solid $gray;
+        margin: $small-margin;
+        padding: $small-padding;
+        color: $gray-darkest;
+        display: flex;
+        align-items: center;
+		padding: $default-padding;
 
-		a {
-			display: block;
-			padding: $default-padding;
+		i {
+			color: $gold;
+			display: inline-block;
+			margin-right: $small-margin;
+			font-size: $base-font-size;
+			transition: $default-transition;
 		}
-	}
 
-	&.bc_link-list--grid {
-		display: flex;
-		flex-wrap: wrap;
+        &:hover {
+			background: $gold;
+			color: $gray-darkest;
 
-		li {
-			display: block;
-		}
+            i {
+                color: $white;
+            }
+        }
+    }
+}
 
-		a {
-			background: $white;
-			border: 1px solid $gray;
-			margin: $small-margin;
-			padding: $small-padding;
-		}
-	}
+.bc_link-list--columns-3 {
+    li {
+        width: 33%;
+    }
+}
 
-	&.bc_link-list--columns-3 {
-		li {
-			width: 33%;
-		}
-	}
-
+@media screen and (max-width: $small-screen) {
+    .bc_link-list--grid {
+        display: block;
+    }
+    .bc_link-list--columns-3 li {
+        width: 100%;
+    }
+    .bc_link-list--grid {
+        a {
+            font-size: 18px;
+            align-items: end;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        i {
+            font-size: 32px;
+        }
+    }
 }
