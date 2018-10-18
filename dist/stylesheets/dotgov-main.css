@@ -108,11 +108,34 @@ input {
   border: 1px solid #e0e0e0;
   padding: 2.5px 7.5px; }
 
-.grid {
-  display: flex; }
+.bc_grid {
+  display: flex;
+  justify-content: space-between; }
 
-.col {
+.bc_col {
   flex: 1; }
+
+[class*=bc_grid-cols] .bc_col {
+  flex: none; }
+
+.bc_grid-cols-2 .bc_col {
+  width: 49%; }
+
+.bc_grid-cols-3 .bc_col {
+  width: 32%; }
+
+/* TODO: Convert this to a variable */
+@media (max-width: 576px) {
+  .bc_grid {
+    display: block; }
+  .bc_col {
+    margin-bottom: 15px; }
+  .bc_grid-cols-2 .bc_col,
+  .bc_grid-cols-3 .bc_col {
+    width: 100%; } }
+
+.bc_section {
+  margin: 15px auto; }
 
 * {
   box-sizing: border-box; }
@@ -190,33 +213,10 @@ a {
     color: #fff; }
 
 .dg_primary-action-container {
-  display: flex;
-  margin: 60px auto; }
+  margin-top: 60px; }
   .dg_primary-action-container .dg_primacy-action-heading {
     font-weight: 700;
     margin-left: 7.5px; }
-  .dg_primary-action-container .dg_primacy-action {
-    width: 50%; }
-  .dg_primary-action-container .dg_primary-services-list {
-    font-size: 12px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase; }
-    .dg_primary-action-container .dg_primary-services-list a {
-      color: #616161;
-      display: flex;
-      align-items: center;
-      padding: 15px; }
-      .dg_primary-action-container .dg_primary-services-list a:hover {
-        background: #feb30c; }
-        .dg_primary-action-container .dg_primary-services-list a:hover i {
-          color: #fff; }
-    .dg_primary-action-container .dg_primary-services-list i {
-      color: #feb30c;
-      display: inline-block;
-      margin-right: 7.5px;
-      font-size: 21px;
-      transition: all ease-in-out 0.3s; }
 
 .dg_homepage-search {
   position: relative;
@@ -238,13 +238,14 @@ a {
   .dg_icon-btn:hover {
     background: #f0a601; }
 
-.dg_callout-img .bc_callout-title {
-  font-weight: 700;
-  font-size: 28px; }
-
-.dg_callout-img .bc_callout-subtitle {
-  color: #616161;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 4px; }
+.dg_callout {
+  border-top: 5px solid #76C627; }
+  .dg_callout .bc_callout-title {
+    font-weight: 700;
+    font-size: 28px; }
+  .dg_callout .bc_callout-subtitle {
+    color: #616161;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px; }
