@@ -1,12 +1,13 @@
 import React from 'react';
+import { GetCssClasses } from '../../Utilities';
 
 export default class Box extends React.Component {
 	render() {
-		const { className } = this.props;
-		const cssClasses = `bc_box ${className ? ` ${className}` : ``}`;
+		const { className, children } = this.props;
+		const cssClasses = GetCssClasses(className, 'bc_box');
 		return (
 			<div className={cssClasses}>
-				{this.props.children}
+				{children}
 			</div>
 		);
 	}
