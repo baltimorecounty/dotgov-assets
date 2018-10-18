@@ -4,10 +4,10 @@ import ImageCallout from '../Callouts/ImageCallout/ImageCallout.js';
 
 export default function MostPopularServices(props) {
     return (
-        <React.Fragment>
+        <div className="grid">
             {callOuts.map(callout => (
-                <ImageCallout {...callout} />
+                <ImageCallout className="dg_callout-img col" {...callout} />
             ))}
-        </React.Fragment>
+        </div>
     );
 }
