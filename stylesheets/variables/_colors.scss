@@ -2,27 +2,54 @@ $color-lightest-ratio: 10%;
 $color-light-ratio: 5%;
 $color-dark-ratio: 5%;
 $color-darkest-ratio: 50%;
-
 $gold: #feb30c;
-$green: #7cfc00;
+$green: #76C627;
 $black: #333;
 $white: #fff;
 $gray: #e0e0e0;
-
 $gray-lightest: lighten($gray, $color-lightest-ratio);
 $gray-light: lighten($gray, $color-light-ratio);
 $gray-dark: darken($gray, $color-dark-ratio);
 $gray-darkest: darken($gray, $color-darkest-ratio);
-
-
 $gold-lightest: lighten($gold, $color-lightest-ratio);
 $gold-light: lighten($gold, $color-light-ratio);
 $gold-dark: darken($gold, $color-dark-ratio);
 $gold-darkest: darken($gold, $color-darkest-ratio);
-
 $green-lightest: lighten($green, $color-lightest-ratio);
 $green-light: lighten($green, $color-light-ratio);
 $green-dark: darken($green, $color-dark-ratio);
 $green-darkest: darken($green, $color-darkest-ratio);
 
+$colors: (
+	('gray', $gray),
+	('green', $green),
+	('gold', $gold)
+);
 
+$shades: (
+	('lighten', 'lightest', $color-lightest-ratio),
+	('lighten', 'light', $color-light-ratio),
+	('darken', 'dark', $color-light-ratio),
+	('darken', 'darkest', $color-darkest-ratio)
+);
+
+@mixin buildColors() {
+    @each $colorName, $color in $colors {
+		.dg_color__#{$colorName} {
+			background: $color;
+		}
+
+		@each $shadeMethod, $shadeName, $shadeRatio in $shades {
+			.dg_color__#{$colorName}--#{$shadeName} {
+				@if $shadeMethod == 'lighten' {
+					background: lighten($color, $shadeRatio);
+				}
+				@if $shadeMethod == 'darken' {
+					background: darken($color, $shadeRatio);
+				}
+			}
+		}
+    }
+}
+
+@include buildColors();
