@@ -1,6 +1,7 @@
 @import 'variables/all';
 @import './typography';
 @import './form';
+@import './grid';
 
 * {
 	box-sizing: border-box;
@@ -13,5 +14,10 @@ body {
 } /* This needs to be removed in favor of containers */
 
 a {
+	color: $green;
 	transition: $default-transition;
+
+	&:hover {
+		color: $green-dark;
+	}
 }
