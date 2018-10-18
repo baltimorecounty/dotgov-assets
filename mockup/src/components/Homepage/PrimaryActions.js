@@ -6,11 +6,11 @@ import MostPopularServices from '../Homepage/MostPopularServices';
 export default function PrimaryActions(props) {
     return (
         <React.Fragment>
-            <Box className="dg_primary-action-container">
-                <div className="dg_primacy-action dg_primary-search-container">
+            <Box className="dg_primary-action-container bc_grid bc_grid-cols-2">
+                <div className="dg_primacy-action bc_col">
                     <Search />
                 </div>
-                <div className="dg_primacy-action dg_primary-services-container">
+                <div className="dg_primacy-action bc_col">
                     <MostPopularServices />
                 </div>
             </Box>
