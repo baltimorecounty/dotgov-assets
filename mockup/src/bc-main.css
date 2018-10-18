@@ -93,3 +93,14 @@
       padding: 7.5px; }
   .bc_link-list.bc_link-list--columns-3 li {
     width: 33%; }
+
+.bc_callout {
+  position: relative; }
+  .bc_callout .bc_callout-figure {
+    background: white;
+    padding: 15px 30px;
+    position: absolute;
+    bottom: 0; }
+  .bc_callout .bc_callout-subtitle {
+    font-size: 16px;
+    text-transform: uppercase; }

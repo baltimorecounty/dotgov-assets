@@ -3,12 +3,14 @@
 		"title": "County Executive",
 		"subTitle": "Executive Branch",
 		"linkText": "Lorem ipsum dolor, consecterur elit.",
+		"link": "/county-executive",
 		"image": ""
 	},
 	{
 		"title": "County Council",
 		"subTitle": "Legislative Branch",
 		"linkText": "Lorem ipsum dolor, consecterur elit.",
+		"link": "/county-council",
 		"image": ""
 	}
 ]
