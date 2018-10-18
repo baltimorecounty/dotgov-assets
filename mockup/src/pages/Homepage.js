@@ -10,8 +10,7 @@ export default class Homepage extends React.Component {
             <React.Fragment>
                 <SiteHeader />
                 <div
-                    className="dg_main-content"
-                    style={{ margin: '30px auto' }}
+                    className="dg_main-content bc_section"
                 >
                     <PrimaryActions />
 					<ImageCallouts />
