@@ -17,9 +17,9 @@ const defaultProps = {
 
 export default class ImageCallout extends React.Component {
 	render() {
-		const { image, title, subTitle, linkText, link, linkIcon } = this.props;
+		const { image, title, subTitle, linkText, link, linkIcon, ...rest } = this.props;
 		return (
-			<Callout>
+			<Callout {...rest}>
 				<img className="bc_callout-img" src={image} alt="" />
 				<div className="bc_callout-figure">
 					<span className="bc_callout-subtitle">{subTitle}</span>
