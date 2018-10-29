@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Public Notices",
+		"icon": "bullhorn",
+		"link": "/public-notices"
+	},
+	{
+		"name": "Meetings and Events",
+		"icon": "calendar-alt",
+		"link": "/meetings-and-events"
+	},
+	{
+		"name": "Boards and Commissions",
+		"icon": "clipboard",
+		"link": "/boards-and-commissions"
+	},
+	{
+		"name": "Open Data",
+		"icon": "chart-line",
+		"link": "/open-data"
+	}
+]
