@@ -104,6 +104,40 @@ h6 {
 h1 {
   font-weight: 700; }
 
+h1.alt-heading,
+h2.alt-heading,
+h3.alt-heading,
+h4.alt-heading,
+h5.alt-heading,
+h6.alt-heading {
+  position: relative;
+  text-align: center;
+  z-index: 99; }
+  h1.alt-heading:before,
+  h2.alt-heading:before,
+  h3.alt-heading:before,
+  h4.alt-heading:before,
+  h5.alt-heading:before,
+  h6.alt-heading:before {
+    border-top: 5px solid #e0e0e0;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1; }
+  h1.alt-heading span,
+  h2.alt-heading span,
+  h3.alt-heading span,
+  h4.alt-heading span,
+  h5.alt-heading span,
+  h6.alt-heading span {
+    background: inherit;
+    padding: 0 15px; }
+
 input {
   border: 1px solid #e0e0e0;
   padding: 2.5px 7.5px; }
