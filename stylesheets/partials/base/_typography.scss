@@ -16,3 +16,30 @@ h6 {
 h1 {
     font-weight: $bold-font-weight;
 }
+
+h1.alt-heading,
+h2.alt-heading,
+h3.alt-heading,
+h4.alt-heading,
+h5.alt-heading,
+h6.alt-heading {
+    position: relative;
+    text-align: center;
+    z-index: 99;
+    &:before {
+        border-top: 5px solid $gray;
+        content: "";
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }
+    span {
+        background: inherit;
+        padding: 0 $default-padding;
+    }
+}
