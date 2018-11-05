@@ -128,6 +128,12 @@
   .bc_link-list--grid i {
     font-size: 32px; } }
 
+.bc_callout-list {
+  background: #ededed;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px; }
+
 .bc_callout {
   position: relative; }
   .bc_callout .bc_callout-img {
@@ -147,3 +153,25 @@
     width: 100%; }
     .bc_callout .bc_callout-figure {
       position: static; } }
+
+.bc_icon-btn {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase; }
+  .bc_icon-btn i {
+    border: 3px solid #feb30c;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    color: #feb30c;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px; }
