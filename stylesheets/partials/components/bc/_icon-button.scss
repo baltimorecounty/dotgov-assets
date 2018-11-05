@@ -20,4 +20,9 @@
         height: 100px;
         width: 100px;
     }
+    &:hover i {
+        background: $gold;
+        color: $white;
+        transition: $default-transition;
+    }
 }

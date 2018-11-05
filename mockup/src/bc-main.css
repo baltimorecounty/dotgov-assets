@@ -175,11 +175,16 @@
     align-items: center;
     height: 100px;
     width: 100px; }
+  .bc_icon-btn:hover i {
+    background: #feb30c;
+    color: #fff;
+    transition: all ease-in-out 0.3s; }
 
 .bc_tagline {
   background: #76C627;
   color: #fff;
   padding: 15px;
+  margin: 45px auto;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 500;
