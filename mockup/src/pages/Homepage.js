@@ -10,17 +10,14 @@ export default class Homepage extends React.Component {
         return (
             <React.Fragment>
                 <SiteHeader />
-                <div
-                    className="dg_main-content bc_section"
-                >
+                <div className="dg_main-content bc_section">
                     <PrimaryActions />
-					<ImageCallouts />
-					<TransparencyInGovernment />
-					<br></br>
-					<footer>
-						<Link to="/design-system">Design System</Link>
-					</footer>
-
+                    <ImageCallouts />
+                    <TransparencyInGovernment />
+                    <br />
+                    <footer>
+                        <Link to="/design-system">Design System</Link>
+                    </footer>
                 </div>
             </React.Fragment>
         );
