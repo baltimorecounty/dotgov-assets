@@ -14,7 +14,6 @@ export default class Homepage extends React.Component {
                     <PrimaryActions />
                     <ImageCallouts />
                     <TransparencyInGovernment />
-                    <br />
                     <footer>
                         <Link to="/design-system">Design System</Link>
                     </footer>
