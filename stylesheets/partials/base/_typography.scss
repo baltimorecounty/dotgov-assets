@@ -17,23 +17,26 @@ h1 {
     font-weight: $bold-font-weight;
 }
 
+h2 {
+    font-size: $h2-font-size;
+}
+
 h1.alt-heading,
 h2.alt-heading,
 h3.alt-heading,
 h4.alt-heading,
 h5.alt-heading,
 h6.alt-heading {
-	display: flex;
-	font-weight: 700;
-	white-space: nowrap;
-	align-items: center;
-
-  &:before,
-  &:after {
-    content: "";
-	height: 5px;
-	width: 100%;
-	background-color: $gray;
-	margin: 10px;
-  }
+    display: flex;
+    font-weight: 700;
+    white-space: nowrap;
+    align-items: center;
+    &:before,
+    &:after {
+        content: '';
+        height: 5px;
+        width: 100%;
+        background-color: $gray;
+        margin: 10px;
+    }
 }

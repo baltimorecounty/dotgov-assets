@@ -104,6 +104,9 @@ h6 {
 h1 {
   font-weight: 700; }
 
+h2 {
+  font-size: 28px; }
+
 h1.alt-heading,
 h2.alt-heading,
 h3.alt-heading,
@@ -125,7 +128,7 @@ h6.alt-heading {
   h5.alt-heading:after,
   h6.alt-heading:before,
   h6.alt-heading:after {
-    content: "";
+    content: '';
     height: 5px;
     width: 100%;
     background-color: #e0e0e0;
