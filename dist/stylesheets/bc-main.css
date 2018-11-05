@@ -175,3 +175,13 @@
     align-items: center;
     height: 100px;
     width: 100px; }
+
+.bc_tagline {
+  background: #76C627;
+  color: #fff;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase; }

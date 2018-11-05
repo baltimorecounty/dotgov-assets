@@ -4,6 +4,7 @@ import SiteHeader from '../components/Site/Header';
 import PrimaryActions from '../components/Homepage/PrimaryActions';
 import ImageCallouts from '../components/Homepage/ImageCallouts';
 import TransparencyInGovernment from '../components/Homepage/TransparencyInGovernment';
+import Tagline from '../components/Tagline/Tagline';
 
 export default class Homepage extends React.Component {
     render() {
@@ -14,6 +15,10 @@ export default class Homepage extends React.Component {
                     <PrimaryActions />
                     <ImageCallouts />
                     <TransparencyInGovernment />
+                    <Tagline
+                        className="dg_tagline"
+                        text="Inclusion. Innovation. Community. Baltimore County"
+                    />
                     <footer>
                         <Link to="/design-system">Design System</Link>
                     </footer>
