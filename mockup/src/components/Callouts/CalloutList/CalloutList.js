@@ -1,12 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import IconButton from '../../Buttons/IconButton';
 
 const propTypes = {
     items: PropTypes.array.isRequired
-};
-
-const defaultProps = {
-    items: []
 };
 
 export default function CalloutList(props) {
@@ -20,14 +17,10 @@ export default function CalloutList(props) {
                         className="bc_callout-list_item"
                         key={itemKey}
                     >
-                        <i
-                            className={`fas fa-${
-                                item.icon
-                            } bc_callout-list_item-icon`}
-                        />
-                        <span className="bc_callout-list_item-text">
-                            {item.name}
-                        </span>
+						<IconButton
+							icon={item.icon}
+							text={item.name}
+						/>
                     </a>
                 );
             })}
@@ -36,4 +29,3 @@ export default function CalloutList(props) {
 }
 
 CalloutList.propTypes = propTypes;
-CalloutList.defaultProps = defaultProps;
