@@ -17,10 +17,7 @@ export default function CalloutList(props) {
                         className="bc_callout-list_item"
                         key={itemKey}
                     >
-						<IconButton
-							icon={item.icon}
-							text={item.name}
-						/>
+                        <IconButton icon={item.icon} text={item.name} />
                     </a>
                 );
             })}
