@@ -104,6 +104,33 @@ h6 {
 h1 {
   font-weight: 700; }
 
+h1.alt-heading,
+h2.alt-heading,
+h3.alt-heading,
+h4.alt-heading,
+h5.alt-heading,
+h6.alt-heading {
+  display: flex;
+  font-weight: 700;
+  white-space: nowrap;
+  align-items: center; }
+  h1.alt-heading:before, h1.alt-heading:after,
+  h2.alt-heading:before,
+  h2.alt-heading:after,
+  h3.alt-heading:before,
+  h3.alt-heading:after,
+  h4.alt-heading:before,
+  h4.alt-heading:after,
+  h5.alt-heading:before,
+  h5.alt-heading:after,
+  h6.alt-heading:before,
+  h6.alt-heading:after {
+    content: "";
+    height: 5px;
+    width: 100%;
+    background-color: #e0e0e0;
+    margin: 10px; }
+
 input {
   border: 1px solid #e0e0e0;
   padding: 2.5px 7.5px; }
@@ -135,7 +162,7 @@ input {
     width: 100%; } }
 
 .bc_section {
-  margin: 15px auto; }
+  margin: 45px auto; }
 
 * {
   box-sizing: border-box; }

@@ -5,7 +5,7 @@ import mostPopularServicesLinks from '../../data/most-popular-services.json';
 export default function MostPopularServices(props) {
     return (
         <React.Fragment>
-            <h3 className="dg_primacy-action-heading">Most Popular Services</h3>
+            <h3 className="alt-heading"><span>Most Popular Services</span></h3>
             <LinkList
                 className="dg_primary-services-list"
                 items={mostPopularServicesLinks}
