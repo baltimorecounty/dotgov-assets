@@ -12,11 +12,7 @@ export default function CalloutList(props) {
         <section className="bc_callout-list">
             {items.map((item, itemKey) => {
                 return (
-                    <a
-                        href={item.url}
-                        className="bc_callout-list_item"
-                        key={itemKey}
-                    >
+                    <a href={item.url} className="bc_icon-btn" key={itemKey}>
                         <IconButton icon={item.icon} text={item.name} />
                     </a>
                 );
