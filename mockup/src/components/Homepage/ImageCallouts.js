@@ -2,12 +2,16 @@ import React from 'react';
 import callOuts from '../../data/homepage-gov-callouts.json';
 import ImageCallout from '../Callouts/ImageCallout/ImageCallout.js';
 
-export default function MostPopularServices(props) {
+export default function MostPopularServices() {
     return (
-        <div className="bc_grid bc_grid-cols-2 bc_section dg_homepage-callouts">
-            {callOuts.map(callout => (
-                <ImageCallout className="dg_callout bc_col" {...callout} />
-            ))}
+        <div className="between-xs bc_section dg_homepage-callouts container">
+            <div className="row">
+                {callOuts.map(callout => (
+                    <div className="col-md-6">
+                        <ImageCallout className="dg_callout" {...callout} />
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }

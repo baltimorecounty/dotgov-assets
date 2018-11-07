@@ -7,7 +7,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <header className="dg_site-header">
-				<Logo />
+                <Logo />
                 <SecondaryNavigation />
                 <PrimaryNavigation />
             </header>

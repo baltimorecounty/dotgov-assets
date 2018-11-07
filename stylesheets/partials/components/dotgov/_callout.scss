@@ -1,16 +1,14 @@
 .dg_callout {
-	border-top: 5px solid $green;
-
-	.bc_callout-title {
-		font-weight: 700;
-		font-size: 28px;
-	}
-
-	.bc_callout-subtitle {
-		color: $gray-darkest;
-		font-family: $heading-font-family;
-		font-size: 12px;
-		font-weight: 700;
-		letter-spacing: 4px;
-	}
+    border-top: 5px solid $blue;
+    .bc_callout-title {
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .bc_callout-subtitle {
+        color: $gray-darkest;
+        font-family: $heading-font-family;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 4px;
+    }
 }

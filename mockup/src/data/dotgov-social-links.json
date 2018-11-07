@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "//www.baltimorecountymd.gov/socialmedia/index.html#facebook"
+    },
+    {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "//www.baltimorecountymd.gov/socialmedia/index.html#twitter"
+    },
+    {
+        "name": "Youtube",
+        "icon": "youtube",
+        "link": "//www.baltimorecountymd.gov/socialmedia/index.html#youtube"
+    }
+]
