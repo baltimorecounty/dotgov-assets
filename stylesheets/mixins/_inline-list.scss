@@ -1,0 +1,6 @@
+@mixin inlineList() {
+    @include resetList();
+    li {
+        display: inline-block;
+    }
+}
