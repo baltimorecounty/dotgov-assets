@@ -39,7 +39,9 @@ $nav-border-size: 3px;
     text-align: right;
     p {
         color: $white;
+        font-size: 12px;
         padding: $default-padding;
         margin: 0;
+        text-transform: uppercase;
     }
 }
