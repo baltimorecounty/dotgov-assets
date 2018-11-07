@@ -920,12 +920,10 @@ a {
   font-weight: 100;
   padding: 0 15px;
   text-align: right; }
-  .dg_secondary-nav .dg_secondary-nav-list a {
-    padding: 15px; }
-    .dg_secondary-nav .dg_secondary-nav-list a:hover {
-      background: #616161; }
-  .dg_secondary-nav a {
-    color: #fff; }
+  .dg_secondary-nav p {
+    color: #fff;
+    padding: 15px;
+    margin: 0; }
 
 .dg_primary-action-container {
   margin-top: 60px; }

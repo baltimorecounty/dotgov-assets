@@ -1,15 +1,12 @@
 import React from 'react';
-import LinkList from '../Lists/LinkList';
-import secondaryNavItems from '../../data/secondary-navigation.json';
+import { format } from 'date-fns';
 
 export default class SecondaryNavigation extends React.Component {
     render() {
+        const todaysDate = format(new Date(), 'dddd, MMMM Do');
         return (
             <nav className="dg_secondary-nav">
-                <LinkList
-                    className="dg_secondary-nav-list"
-                    items={secondaryNavItems}
-                />
+                <p>{todaysDate}</p>
             </nav>
         );
     }
