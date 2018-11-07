@@ -19,8 +19,33 @@ export default class Footer extends React.Component {
         const year = new Date().getFullYear();
         return (
             <React.Fragment>
-                <section className="row">
-                    <IconList items={socialMediaLinks} />
+                <section className="bc_section container">
+                    <div>
+                        <div className="row">
+                            <div className="col-md-6">
+                                <IconList items={socialMediaLinks} />
+                            </div>
+                            <div className="col-md-6 text-right">
+                                <div className="dg_baltcogo">
+                                    <a href="/baltco-go">
+                                        <img
+                                            src="/img/baltcogo-logo-sm.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a href="/app-store">
+                                        <img src="/img/app-store.png" alt="" />
+                                    </a>
+                                    <a href="/google-play">
+                                        <img
+                                            src="/img/google-play.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section className="container between-xs">
                     <div className="row">

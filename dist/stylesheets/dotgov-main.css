@@ -974,3 +974,9 @@ a {
     text-transform: uppercase;
     margin: 0;
     padding: 15px 0; }
+
+.dg_baltcogo {
+  margin: auto 15px; }
+  .dg_baltcogo a {
+    display: inline-block;
+    margin: auto 7.5px; }

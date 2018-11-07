@@ -128,6 +128,27 @@
   .bc_link-list--grid i {
     font-size: 32px; } }
 
+.bc_icon-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .bc_icon-list li {
+    display: inline-block; }
+  .bc_icon-list .bc_icon-list-item a {
+    display: block;
+    margin: auto 15px; }
+    .bc_icon-list .bc_icon-list-item a i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #005796;
+      border-radius: 50%;
+      color: #fff;
+      height: 50px;
+      width: 50px; }
+    .bc_icon-list .bc_icon-list-item a:hover i {
+      background: #0075c9; }
+
 .bc_callout-list {
   background: #ededed;
   display: flex;

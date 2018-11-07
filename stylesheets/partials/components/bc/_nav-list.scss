@@ -1,32 +1,26 @@
-@import '../../../mixins/reset-list';
-
 .bc_nav-list {
-	@include resetList();
-	background: $gray-light;
-	display: inline-block;
-
-	li {
-		border-left: 1px solid $gray-dark;
-		display: inline-block;
-		padding: $default-padding ($default-padding * 2);
-		text-align: center;
-
-		a {
-			color: $gray-darkest;
-			text-transform: uppercase;
-			font-family: $heading-font-family;
-			font-weight: 700;
-		}
-
-		i {
-			color: $gray-dark;
-			display: block;
-			font-size: 22px;
-			margin-bottom: 5px;
-		}
-
-		&:last-child {
-			border-right: none;
-		}
-	}
+    @include resetList();
+    background: $gray-light;
+    display: inline-block;
+    li {
+        border-left: 1px solid $gray-dark;
+        display: inline-block;
+        padding: $default-padding ($default-padding * 2);
+        text-align: center;
+        a {
+            color: $gray-darkest;
+            text-transform: uppercase;
+            font-family: $heading-font-family;
+            font-weight: 700;
+        }
+        i {
+            color: $gray-dark;
+            display: block;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        &:last-child {
+            border-right: none;
+        }
+    }
 }

@@ -1,0 +1,23 @@
+$icon-item-size: 50px;
+.bc_icon-list {
+    @include inlineList();
+    .bc_icon-list-item {
+        a {
+            display: block;
+            margin: auto $default-margin;
+            i {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: $blue;
+                border-radius: 50%;
+                color: $white;
+                height: $icon-item-size;
+                width: $icon-item-size;
+            }
+            &:hover i {
+                background: $blue-lightest;
+            }
+        }
+    }
+}
