@@ -3,7 +3,7 @@ $color-light-ratio: 5%;
 $color-dark-ratio: 5%;
 $color-darkest-ratio: 50%;
 $gold: #feb30c;
-$green: #76C627;
+$blue: #005796;
 $black: #333;
 $white: #fff;
 $gray: #e0e0e0;
@@ -15,40 +15,32 @@ $gold-lightest: lighten($gold, $color-lightest-ratio);
 $gold-light: lighten($gold, $color-light-ratio);
 $gold-dark: darken($gold, $color-dark-ratio);
 $gold-darkest: darken($gold, $color-darkest-ratio);
-$green-lightest: lighten($green, $color-lightest-ratio);
-$green-light: lighten($green, $color-light-ratio);
-$green-dark: darken($green, $color-dark-ratio);
-$green-darkest: darken($green, $color-darkest-ratio);
-
-$colors: (
-	('gray', $gray),
-	('green', $green),
-	('gold', $gold)
-);
-
+$blue-lightest: lighten($blue, $color-lightest-ratio);
+$blue-light: lighten($blue, $color-light-ratio);
+$blue-dark: darken($blue, $color-dark-ratio);
+$blue-darkest: darken($blue, $color-darkest-ratio);
+$colors: (('gray', $gray), ('blue', $blue), ('gold', $gold));
 $shades: (
-	('lighten', 'lightest', $color-lightest-ratio),
-	('lighten', 'light', $color-light-ratio),
-	('darken', 'dark', $color-light-ratio),
-	('darken', 'darkest', $color-darkest-ratio)
+    ('lighten', 'lightest', $color-lightest-ratio),
+    ('lighten', 'light', $color-light-ratio),
+    ('darken', 'dark', $color-light-ratio),
+    ('darken', 'darkest', $color-darkest-ratio)
 );
-
 @mixin buildColors() {
     @each $colorName, $color in $colors {
-		.dg_color__#{$colorName} {
-			background: $color;
-		}
-
-		@each $shadeMethod, $shadeName, $shadeRatio in $shades {
-			.dg_color__#{$colorName}--#{$shadeName} {
-				@if $shadeMethod == 'lighten' {
-					background: lighten($color, $shadeRatio);
-				}
-				@if $shadeMethod == 'darken' {
-					background: darken($color, $shadeRatio);
-				}
-			}
-		}
+        .dg_color__#{$colorName} {
+            background: $color;
+        }
+        @each $shadeMethod, $shadeName, $shadeRatio in $shades {
+            .dg_color__#{$colorName}--#{$shadeName} {
+                @if $shadeMethod== 'lighten' {
+                    background: lighten($color, $shadeRatio);
+                }
+                @if $shadeMethod== 'darken' {
+                    background: darken($color, $shadeRatio);
+                }
+            }
+        }
     }
 }
 

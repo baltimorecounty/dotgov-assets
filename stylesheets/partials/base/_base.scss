@@ -3,22 +3,22 @@
 @import './form';
 @import './grid';
 @import './section';
-
+@import './utils';
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	margin: auto;
-	max-width: 1400px;
-	width: 100%;
-} /* This needs to be removed in favor of containers */
+    margin: auto; // max-width: 1400px;
+    width: 100%;
+}
+
+/* This needs to be removed in favor of containers */
 
 a {
-	color: $green;
-	transition: $default-transition;
-
-	&:hover {
-		color: $green-dark;
-	}
+    color: $blue;
+    transition: $default-transition;
+    &:hover {
+        color: $blue-lightest;
+    }
 }

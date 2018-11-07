@@ -13,19 +13,19 @@
 .dg_color__gray--darkest {
   background: #616161; }
 
-.dg_color__green {
-  background: #76C627; }
+.dg_color__blue {
+  background: #005796; }
 
-.dg_color__green--lightest {
-  background: #90da46; }
+.dg_color__blue--lightest {
+  background: #0075c9; }
 
-.dg_color__green--light {
-  background: #83d630; }
+.dg_color__blue--light {
+  background: #0066b0; }
 
-.dg_color__green--dark {
-  background: #69b123; }
+.dg_color__blue--dark {
+  background: #00487d; }
 
-.dg_color__green--darkest {
+.dg_color__blue--darkest {
   background: black; }
 
 .dg_color__gold {
@@ -181,7 +181,7 @@
     transition: all ease-in-out 0.3s; }
 
 .bc_tagline {
-  background: #76C627;
+  background: #005796;
   color: #fff;
   padding: 15px;
   margin: 45px auto;

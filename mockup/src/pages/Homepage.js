@@ -12,7 +12,7 @@ export default class Homepage extends React.Component {
         return (
             <React.Fragment>
                 <SiteHeader />
-                <div className="dg_main-content bc_section">
+                <div className="dg_main-content">
                     <PrimaryActions />
                     <ImageCallouts />
                     <TransparencyInGovernment />

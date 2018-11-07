@@ -13,19 +13,19 @@
 .dg_color__gray--darkest {
   background: #616161; }
 
-.dg_color__green {
-  background: #76C627; }
+.dg_color__blue {
+  background: #005796; }
 
-.dg_color__green--lightest {
-  background: #90da46; }
+.dg_color__blue--lightest {
+  background: #0075c9; }
 
-.dg_color__green--light {
-  background: #83d630; }
+.dg_color__blue--light {
+  background: #0066b0; }
 
-.dg_color__green--dark {
-  background: #69b123; }
+.dg_color__blue--dark {
+  background: #00487d; }
 
-.dg_color__green--darkest {
+.dg_color__blue--darkest {
   background: black; }
 
 .dg_color__gold {
@@ -58,19 +58,19 @@
 .dg_color__gray--darkest {
   background: #616161; }
 
-.dg_color__green {
-  background: #76C627; }
+.dg_color__blue {
+  background: #005796; }
 
-.dg_color__green--lightest {
-  background: #90da46; }
+.dg_color__blue--lightest {
+  background: #0075c9; }
 
-.dg_color__green--light {
-  background: #83d630; }
+.dg_color__blue--light {
+  background: #0066b0; }
 
-.dg_color__green--dark {
-  background: #69b123; }
+.dg_color__blue--dark {
+  background: #00487d; }
 
-.dg_color__green--darkest {
+.dg_color__blue--darkest {
   background: black; }
 
 .dg_color__gold {
@@ -106,6 +106,9 @@ h1 {
 
 h2 {
   font-size: 28px; }
+
+h3 {
+  font-weight: 700; }
 
 h1.alt-heading,
 h2.alt-heading,
@@ -682,7 +685,8 @@ input {
 
 @media only screen and (min-width: 75em) {
   .container {
-    width: 76rem; }
+    max-width: 1400px;
+    width: 100%; }
   .col-lg,
   .col-lg-1,
   .col-lg-10,
@@ -840,20 +844,28 @@ input {
 .bc_section {
   margin: 45px auto; }
 
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
 * {
   box-sizing: border-box; }
 
 body {
   margin: auto;
-  max-width: 1400px;
   width: 100%; }
 
 /* This needs to be removed in favor of containers */
 a {
-  color: #76C627;
+  color: #005796;
   transition: all ease-in-out 0.3s; }
   a:hover {
-    color: #69b123; }
+    color: #0075c9; }
 
 .dg_site-header {
   position: relative; }
@@ -942,7 +954,7 @@ a {
     background: #f0a601; }
 
 .dg_callout {
-  border-top: 5px solid #76C627; }
+  border-top: 5px solid #005796; }
   .dg_callout .bc_callout-title {
     font-weight: 700;
     font-size: 28px; }
@@ -956,3 +968,9 @@ a {
 .dg_footer {
   background: #333;
   color: #fff; }
+  .dg_footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 15px 0; }
