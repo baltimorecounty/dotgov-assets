@@ -47,7 +47,7 @@ export default class Footer extends React.Component {
                         </div>
                     </div>
                 </section>
-                <section className="bc_section container between-xs">
+                <section className="bc_section abscontainer between-xs">
                     <div className="row">
                         <div className="col-md-3 col-sm-12 col-xs-12">
                             <h3>About Baltimore County</h3>
