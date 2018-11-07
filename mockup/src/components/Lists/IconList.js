@@ -5,10 +5,6 @@ const propTypes = {
     items: PropTypes.array.isRequired
 };
 
-const defaultProps = {
-    items: []
-};
-
 export default class IconList extends React.Component {
     render() {
         return (
@@ -28,4 +24,3 @@ export default class IconList extends React.Component {
 }
 
 IconList.propTypes = propTypes;
-IconList.defaultProps = defaultProps;
