@@ -13,15 +13,13 @@ $nav-border-size: 3px;
             a {
                 border-bottom: $nav-border-size solid transparent;
                 border-top: $nav-border-size solid transparent;
-				display: block;
-				font-size: 14px;
+                display: block;
+                font-size: 14px;
                 padding: ($default-padding - $nav-border-size) $default-padding;
-			}
-
+            }
             i {
                 transition: $default-transition;
-			}
-
+            }
             &:hover a {
                 border-bottom-color: $gold;
             }
@@ -39,16 +37,11 @@ $nav-border-size: 3px;
     font-weight: 100;
     padding: 0 $default-padding;
     text-align: right;
-    .dg_secondary-nav-list {
-        a {
-			padding: $default-padding;
-
-			&:hover {
-				background: $gray-darkest;
-			}
-        }
-    }
-    a {
+    p {
         color: $white;
+        font-size: 12px;
+        padding: $default-padding;
+        margin: 0;
+        text-transform: uppercase;
     }
 }
