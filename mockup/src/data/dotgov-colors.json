@@ -1,5 +1,14 @@
 [
-	"gray",
-	"gold",
-	"green"
+    {
+        "name": "gray",
+        "hex": "#e0e0e0"
+    },
+    {
+        "name": "gold",
+        "hex": "#feb30c"
+    },
+    {
+        "name": "blue",
+        "hex": "#005796"
+    }
 ]
