@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import SiteHeader from '../components/Site/Header';
 import PrimaryActions from '../components/Homepage/PrimaryActions';
 import ImageCallouts from '../components/Homepage/ImageCallouts';

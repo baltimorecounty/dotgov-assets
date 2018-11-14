@@ -1,11 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import IconList from '../Lists/IconList';
 import socialMediaLinks from '../../data/dotgov-social-links.json';
-
-const propTypes = {};
-
-const defaultProps = {};
 
 export default class Footer extends React.Component {
     componentDidMount() {
@@ -123,6 +118,3 @@ export default class Footer extends React.Component {
         );
     }
 }
-
-Footer.propTypes = propTypes;
-Footer.defaultProps = defaultProps;

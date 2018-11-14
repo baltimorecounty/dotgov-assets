@@ -10,6 +10,7 @@ import 'antd/dist/antd.css';
 import './App.css';
 import './bc-main.css';
 import './dotgov-main.css';
+import './design-system.css';
 import Routes from './Routes';
 
 const RouteWithLayout = ({ layout, component, ...rest }) => {

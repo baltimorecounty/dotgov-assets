@@ -12,6 +12,7 @@ const distPath = './dist';
 
 const stylesheets = [
     `${baseSassPath}/bc-main.scss`,
+    `${baseSassPath}/design-system.scss`,
     `${baseSassPath}/dotgov-main.scss`
 ];
 
@@ -40,9 +41,7 @@ gulp.task('sass', () => {
 gulp.task('build', ['sass', 'move-data-into-app', 'move-images-into-app']);
 
 gulp.task('watch:assets', function() {
-	gulp.watch('./img/**/*', ['build']);
-	gulp.watch('./data/**/*.json', ['build']);
+    gulp.watch('./img/**/*', ['build']);
+    gulp.watch('./data/**/*.json', ['build']);
     gulp.watch('./stylesheets/**/*.scss', ['build']);
 });
-
-

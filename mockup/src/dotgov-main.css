@@ -11,7 +11,7 @@
   background: lightgray; }
 
 .dg_color__gray--darkest {
-  background: #616161; }
+  background: #c7c7c7; }
 
 .dg_color__blue {
   background: #005796; }
@@ -26,7 +26,7 @@
   background: #00487d; }
 
 .dg_color__blue--darkest {
-  background: black; }
+  background: #003963; }
 
 .dg_color__gold {
   background: #feb30c; }
@@ -41,7 +41,7 @@
   background: #f0a601; }
 
 .dg_color__gold--darkest {
-  background: #0b0800; }
+  background: #d69401; }
 
 .dg_color__gray {
   background: #e0e0e0; }
@@ -56,7 +56,7 @@
   background: lightgray; }
 
 .dg_color__gray--darkest {
-  background: #616161; }
+  background: #c7c7c7; }
 
 .dg_color__blue {
   background: #005796; }
@@ -71,7 +71,7 @@
   background: #00487d; }
 
 .dg_color__blue--darkest {
-  background: black; }
+  background: #003963; }
 
 .dg_color__gold {
   background: #feb30c; }
@@ -86,7 +86,7 @@
   background: #f0a601; }
 
 .dg_color__gold--darkest {
-  background: #0b0800; }
+  background: #d69401; }
 
 body {
   font-family: "Crimson Text", serif;
@@ -959,7 +959,7 @@ a {
     font-weight: 700;
     font-size: 28px; }
   .dg_callout .bc_callout-subtitle {
-    color: #616161;
+    color: #c7c7c7;
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 700;

@@ -11,9 +11,9 @@ export default class IconList extends React.Component {
             <ul className="bc_icon-list">
                 {this.props.items.map((item, itemKey) => {
                     return (
-                        <li className="bc_icon-list-item">
-                            <a href={item.link} key={itemKey}>
-                                <i class={`fab fa-${item.icon}`} />
+                        <li className="bc_icon-list-item" key={itemKey}>
+                            <a href={item.link}>
+                                <i className={`fab fa-${item.icon}`} />
                             </a>
                         </li>
                     );
