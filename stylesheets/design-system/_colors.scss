@@ -1,8 +1,9 @@
-$color-size: 100px;
+$color-size: 150px;
 .bc_color-list {
     @include resetList();
     display: flex;
     li {
+        padding: $default-padding;
         height: $color-size;
         width: $color-size;
     }
