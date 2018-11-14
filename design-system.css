@@ -1,0 +1,49 @@
+.dg_color__gray {
+  background: #e0e0e0; }
+
+.dg_color__gray--lightest {
+  background: #fafafa; }
+
+.dg_color__gray--light {
+  background: #ededed; }
+
+.dg_color__gray--dark {
+  background: lightgray; }
+
+.dg_color__gray--darkest {
+  background: #616161; }
+
+.dg_color__blue {
+  background: #005796; }
+
+.dg_color__blue--lightest {
+  background: #0075c9; }
+
+.dg_color__blue--light {
+  background: #0066b0; }
+
+.dg_color__blue--dark {
+  background: #00487d; }
+
+.dg_color__blue--darkest {
+  background: black; }
+
+.dg_color__gold {
+  background: #feb30c; }
+
+.dg_color__gold--lightest {
+  background: #fec33f; }
+
+.dg_color__gold--light {
+  background: #febb25; }
+
+.dg_color__gold--dark {
+  background: #f0a601; }
+
+.dg_color__gold--darkest {
+  background: #0b0800; }
+
+.bc_color-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
