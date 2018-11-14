@@ -6,8 +6,8 @@ export default function MostPopularServices() {
     return (
         <div className="between-xs bc_section dg_homepage-callouts container">
             <div className="row">
-                {callOuts.map(callout => (
-                    <div className="col-md-6">
+                {callOuts.map((callout, calloutIndex) => (
+                    <div className="col-md-6" key={calloutIndex}>
                         <ImageCallout className="dg_callout" {...callout} />
                     </div>
                 ))}
