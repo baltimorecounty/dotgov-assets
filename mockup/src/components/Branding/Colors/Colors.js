@@ -13,7 +13,7 @@ export default class Colors extends React.Component {
                 {this.props.colors.map((color, colorIndex) => {
                     return (
                         <React.Fragment>
-                            <h3>{color}</h3>
+                            <h3>{color.name}</h3>
                             <ColorList
                                 className=""
                                 classPrefix="dg"
