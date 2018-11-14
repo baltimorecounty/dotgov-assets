@@ -58,15 +58,15 @@ export default class DesignSystemLayout extends React.Component {
                             {Routes &&
                                 Routes.map((route, routeIndex) => {
                                     return (
-                                        <SubMenu
-                                            key={routeIndex}
-                                            title={
-                                                <span>
-                                                    <Icon type="edit" />
-                                                    {route.name}
-                                                </span>
-                                            }
-                                        />
+                                        <Menu.Item key={routeIndex}>
+                                            <Link
+                                                to={`/design-system/${
+                                                    route.path
+                                                }`}
+                                            >
+                                                {route.name}
+                                            </Link>
+                                        </Menu.Item>
                                     );
                                 })}
                         </Menu>
